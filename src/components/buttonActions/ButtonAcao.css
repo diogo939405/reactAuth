@@ -1,0 +1,26 @@
+.button-form{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10vw;
+    margin-top: -2vh;
+    margin-bottom: -1vh;
+    padding: 5px;
+    
+}
+.button-form button {
+    background-color: #003767;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.button-form button:hover {
+    background-color: #ffffff5e;
+    color: #003767;   
+}
